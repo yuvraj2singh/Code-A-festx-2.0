@@ -4,21 +4,14 @@
   color: black;
 }
 body {
+  height: 100%;
+  position: relative;
   background: linear-gradient(45deg, #ea8c8c, #e48ee4, #e8c481, #91ca91);
-  animation: color 12s ease-in-out infinite;
+  
 }
-@keyframes color {
-  0% {
-    background-position: 0 50%;
-  }
-  50% {
-    background-position: 50% 100%;
-  }
-  100% {
-    background-position: 100% 0%;
-  }
-}
+
 .navbar {
+  font-family: "Anek Devanagari", sans-serif;
   margin: 1vh 5vw;
   display: flex;
   justify-content: space-between;
@@ -29,6 +22,7 @@ ul {
   gap: 3vw;
 }
 li {
+  font-size: 22px;
   list-style: none;
 }
 option {
@@ -42,7 +36,11 @@ option {
 a {
   text-decoration: none;
 }
+a:hover{
+  text-decoration: underline;
+}
 .mainbody {
+  
   margin-top: 5vw;
 }
 .mainbody h1 {
@@ -54,6 +52,13 @@ a {
 
   display: flex;
   justify-content: space-between;
+}
+.photodata img{
+  margin: auto;
+  
+}
+.images img{
+  margin: auto;
 }
 .data {
   text-align: center;
@@ -74,6 +79,11 @@ a {
   max-width: 400px;
   text-align: center;
 }
+input{
+  text-align: center;
+  
+}
+
 
 h1 {
   color: white;
@@ -102,9 +112,13 @@ form {
   outline: none;
   transition: border-color 0.3s ease;
 }
+::placeholder{
+  color: lightgreen;
+  opacity: .8;
+}
 
 .input-box input:focus {
-  border-color: #76c7c0;
+  border-color: green;
 }
 
 .input-box label {
@@ -277,4 +291,18 @@ section {
 }
 .mainbody h1 {
   color: black;
+}
+
+@media only screen and (max-width:1028px) {
+  
+  .photodata {
+    margin: 6vw 5vw;
+  
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+
+  }
+  
+ 
 }
