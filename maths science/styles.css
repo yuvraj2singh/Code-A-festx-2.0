@@ -1,0 +1,185 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 0;
+
+  object-fit: contain;
+}
+header h1 a {
+  color: black;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:visited {
+  text-decoration: none !important;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  background: linear-gradient(45deg, #ea8c8c, #e48ee4, #e8c481, #91ca91);
+  animation: color 12s ease-in-out infinite;
+  color: black;
+  padding: 20px;
+  text-align: center;
+}
+
+.quiz-section {
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.quiz-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.quiz-section li {
+  margin: 10px 0;
+}
+
+.quiz-section button {
+  padding: 10px;
+  background-color: #2152f3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.quiz-section button:hover {
+  background-color: #1976d2;
+}
+
+.solution {
+  background-color: #e0f7fa;
+  margin-top: 15px;
+  padding: 10px;
+  border-left: 4px solid #00acc1;
+}
+
+.hidden {
+  display: none;
+}
+
+.result-section {
+  background-color: #fff;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.result-section p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.result-section button {
+  padding: 10px 20px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.result-section button:hover {
+  background-color: #d32f2f;
+}
+
+.question {
+  margin-left: 3vw;
+}
+button {
+  color: black;
+  font-size: 15px;
+
+  width: 10vw;
+  height: 6vh;
+  border-radius: 50%;
+  position: relative;
+  top: 7vh;
+  background-color: aqua;
+  margin-left: 5vw;
+}
+.result {
+  margin: 1vh 2vw;
+  position: relative;
+
+  top: 12vh;
+
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #83f983;
+}
+
+.footer2 {
+  position: relative;
+  top: 10vh;
+  font-family: "Anek Devanagari", sans-serif;
+  font-weight: 200;
+  height: 31vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #404040;
+
+  gap: 10px;
+}
+.footer2 img {
+  filter: invert(1);
+}
+.flexgg {
+  text-align: center;
+}
+.flexgg a {
+  color: white;
+}
+.flexgg a:hover {
+  text-decoration: underline;
+}
+.list {
+  display: flex;
+
+  gap: 20px;
+}
+.flexgg2 {
+  font-size: 12px;
+}
+.flexgg2 a {
+  color: white;
+}
+.flexgg2 a:hover {
+  text-decoration: underline;
+}
+.list2 {
+  display: flex;
+  gap: 10px;
+}
+.paragraphcontent p {
+  font-size: 12px;
+  text-align: center;
+  color: white;
+}
+section {
+  padding-bottom: 80px;
+}
+.footer2 h3 {
+  margin-bottom: 3vh;
+}
+
+header h1 a:hover {
+  text-decoration: underline;
+}
+.quizh1 {
+  text-decoration: underline;
+}
